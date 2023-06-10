@@ -33,3 +33,11 @@ export interface RecipeData {
   stepList: Step[];
   creator: User;
 }
+
+export interface CardData {
+  img: string;
+  title: string;
+  id: string;
+  viewCount: number;
+  date: string;
+}
